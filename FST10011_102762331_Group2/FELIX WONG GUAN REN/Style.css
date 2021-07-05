@@ -1,0 +1,191 @@
+/* Description: HypeHouse */
+/* Author: Felix Wong Guan Ren */
+/* Date: 29 June 2021 */
+/* Validated: Ok 5 July 2021 */
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Header Style */
+#h1{
+	padding: 1%;
+	height: 140px;
+	width: 15%;
+	display: block;
+	margin-left: 41%;
+	margin-right: auto;
+}
+
+header{
+	background-color: #DADADA;
+	/* Drop Shadow to make different stand out */
+	box-shadow: 0px 0px 5px black;
+}
+
+/* Menu Style */
+nav{
+	text-align: center;
+	font-size: 15px;
+	padding-right: 25px;
+	padding-bottom: 15px;
+}
+
+nav a{
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	padding: 10px 10px 10px 10px;
+}
+
+ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+nav a:hover{
+	color: #5E4AB8;
+	box-shadow: 0px 0px 3px black inset;
+}
+
+nav a:active {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* Primary Content Style */
+#SRP{
+	width: 100%;
+}
+
+article p{
+	font-family: Georgia, Times New Roman, serif;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: justify;
+}
+
+article img{
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Disclaimer{
+	font-size: 100%;
+	text-align: center;
+	margin: auto;
+	width: 50%;
+	border: 3px dashed;
+	padding: 10px;	
+}
+
+div{
+	margin: auto;
+	margin-top: 30px;
+	width: 50%;
+	border: 8px white;
+	padding: 10px;
+	background-color: white;
+}
+
+.class{
+	width: 75%;
+	border: 2px solid black;
+	border: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th{
+	vertical-align: bottom;
+	background-color: #928FA2;
+}
+
+td{
+	background-color: #D8D8D8;
+	height: 40px;
+}
+
+th, td{
+	padding: 4px;
+	width: 50%;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+ol li{
+	font-size: 19px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 15px;
+}
+
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+	font-size: 21px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Form Style */
+label{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+input, textarea{
+	background-color: #EDEDED;
+	border: 1px solid black;
+}
+
+input{
+	padding: 10px 10px 10px 10px;
+}
+
+textarea{
+	padding: 50px 80px 50px 80px;
+}
+
+.form{
+	background-color: #EDEDED;
+}
+
+/* Footer Style */
+footer{
+	font-family: Georgia, Times New Roman, serif;
+	text-align: center;
+	background-color: #DADADA;
+	padding: 1%;
+	box-shadow: 0px 0px 5px black;
+}
+
+footer a{
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+footer a:hover{
+	color: #5E4AB8;
+}
